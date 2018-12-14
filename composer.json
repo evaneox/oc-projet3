@@ -1,0 +1,19 @@
+{
+    "name": "evaneox/oc-cdc-p3",
+    "description" : "Formation CDC OpenClassroom [P3] - Créez un blog pour un écrivain",
+    "type" : "project",
+    "authors": [
+        {
+            "name": "Jeremy Bouhour",
+            "email": "csfrance_noob@hotmail.fr"
+        }
+    ],
+    "autoload": {
+      "psr-4":{
+          "App\\": "app"
+      }
+    },
+    "require": {
+      "twig/twig": "1.*"
+    }
+}
